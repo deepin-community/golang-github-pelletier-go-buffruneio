@@ -1,5 +1,22 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-pelletier-go-buffruneio (0.2.0-2) UNRELEASED; urgency=medium
 
-  * Initial release
+  * Point Vcs-* urls to salsa.debian.org.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Alexandre Viau <aviau@debian.org>  Mon, 02 Apr 2018 19:56:33 -0400
+
+golang-github-pelletier-go-buffruneio (0.2.0-1) unstable; urgency=medium
+
+  * New upstream version 0.2.0
+  * Update d/copyright
+  * Use HTTPS URL for d/copyright
+  * Update to Standards-Version 4.0.0
+  * Add watch file
+  * Add Testsuite: autopkgtest-pkg-go
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Wed, 05 Jul 2017 14:04:22 +0200
+
+golang-github-pelletier-go-buffruneio (0.0~git20160124.0.df1e16f-1) unstable; urgency=medium
+
+  * Initial release (Closes: #846262)
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Tue, 29 Nov 2016 18:13:00 +0100
